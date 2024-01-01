@@ -100,15 +100,22 @@ try{
 // وب سرویس پیامک
 $smsRest = $api->sms();
 $smsSoap = $api->sms('soap');
+```
+```php
 // وب سرویس تیکت پشتیبانی
 $ticket = $api->ticket();
+```
+```php
 // وب سرویس برای مدیریت کامل  ارسال انبوه پیامک
 $branch = $api->branch();
+```
+```php
 //وب سرویس کاربران
 $users = $api->users();
+```
+```php
 //وب سرویس دفترچه تلفن
 $contacts = $api->contacts()
-
 ```
 
 <div dir='rtl'>
