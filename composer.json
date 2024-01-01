@@ -2,7 +2,7 @@
     "name": "melipayamak/php",
     "type": "library",
     "version": "1.0.0",
-    "description": "A PHP wrapper for melipayamak's web services",
+    "description": "A PHP wrapper for aiosms's web services",
     "keywords": ["melipayamak", "sms", "api"],
     "homepage": "http://github.com/AliRMT/aiosms-php/",
     "license": "MIT",
