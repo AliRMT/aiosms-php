@@ -1,5 +1,5 @@
 {
-    "name": "melipayamak/php",
+    "name": "aiosms/php",
     "type": "library",
     "version": "1.0.0",
     "description": "A PHP wrapper for aiosms's web services",
