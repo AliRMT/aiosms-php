@@ -129,12 +129,20 @@ $contacts = $api->contacts()
 // وب سرویس پیامک
 $smsRestAsync = $api->sms('async');
 $smsSoapAsync = $api->sms('soap', 'async');
+```
+```php
 // وب سرویس تیکت پشتیبانی
 $ticket = $api->ticket('async');
+```
+```php
 // وب سرویس برای مدیریت کامل  ارسال انبوه پیامک
 $branch = $api->branch('async');
+```
+```php
 //وب سرویس کاربران
 $users = $api->users('async');
+```
+```php
 //وب سرویس دفترچه تلفن
 $contacts = $api->contacts('async');
 ```
