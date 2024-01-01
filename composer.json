@@ -1,0 +1,32 @@
+{
+    "name": "melipayamak/php",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "A PHP wrapper for melipayamak's web services",
+    "keywords": ["melipayamak", "sms", "api"],
+    "homepage": "http://github.com/AliRMT/aiosms-php/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AIOSMS Team",
+            "email": "aiosms.ir@gmail.com"
+        },
+        {
+            "name": "KolbeNet Co",
+            "email": "kolbenet@gmail.com"
+        },
+	{
+	    "name": "Ali Rahmati",
+	    "email": "alirmt.ir@gmail.com"
+	}
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Melipayamak\\": "src/"
+        }
+    },
+    "minimum-stability" : "stable"
+}
